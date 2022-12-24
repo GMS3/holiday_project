@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-shadow: 0px 0px black
 }
 
 header {
@@ -106,7 +107,7 @@ aside .aside #i {
     height: 200px;
     width: 200px;
     top: 480px;
-    left: 300px;
+    left: 15%;
     text-align: left;
 }
 
@@ -119,7 +120,7 @@ aside .aside #ii {
     height: 200px;
     width: 200px;
     top: 480px;
-    left: 580px;
+    left: 42%;
     text-align: left;
 }
 
@@ -128,7 +129,7 @@ aside .aside #iii {
     height: 200px;
     width: 200px;
     top: 480px;
-    right: 300px;
+    right: 15%;
     text-align: left;
 }
 
@@ -150,9 +151,11 @@ aside #welcome {
 
 #asidelist {
     display: flex;
+    justify-content: space-between;
     margin-top: 200px;
     list-style: none;
-    margin-left: 280px;
+    margin-left: 20.5%;
+    width: 60%;
 }
 
 .lidiv {
@@ -196,7 +199,7 @@ aside #welcome {
 /* third segment of the body */
 
 #third {
-    background-color: rgb(46, 36, 34);
+    background-color: rgb(61, 55, 55);
     padding: 50px 50px;
     height: 300px;
 }
@@ -214,10 +217,10 @@ aside #welcome {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 800px;
+    width: 70%;
     margin: auto;
     color: white;
-    height: 300px;
+    height: 60%px;
 }
 
 #third ul div {
@@ -250,8 +253,9 @@ aside #welcome {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 600px;
+    width: 50%;
     margin: auto;
+    color: black;
 }
 
 #fourth ul li {
@@ -266,7 +270,7 @@ aside #welcome {
 /* footer */
 
 #ffooter {
-    background-color: rgb(46, 36, 34);
+    background-color: rgb(61, 55, 55);
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -300,4 +304,6 @@ aside #welcome {
 
 #fixed {
     position: fixed;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
