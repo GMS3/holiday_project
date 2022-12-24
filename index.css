@@ -110,6 +110,10 @@ aside .aside #i {
     text-align: left;
 }
 
+#trendy {
+    background-color: yellow;
+}
+
 aside .aside #ii {
     position: absolute;
     height: 200px;
@@ -271,8 +275,29 @@ aside #welcome {
 #ffooter div {
     margin: 20px;
     box-shadow: -1px 0px rgba(48, 46, 46, 0.801);
+    width: 150px;
 }
 
 #ffooter div p {
-    margin: 20px;
+    margin: 10px;
+    color: white;
+}
+
+#sfooter {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+#fh {
+    font-size: larger;
+}
+
+#fp {
+    margin-top: 5px;
+}
+
+#fixed {
+    position: fixed;
 }
